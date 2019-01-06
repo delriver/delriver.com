@@ -1,0 +1,64 @@
+/* My custom fonts: Sarabun(For normal text), Staatliches(For header's text)  */
+
+body{
+  font-family: Sarabun, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: Staatliches, sans-serif;
+  letter-spacing: 1px;
+}
+
+h1{
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.header{
+  display: flex;
+  background-color: #585858;
+  color: orange;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+}
+
+figure{
+  margin: 0;
+}
+
+.menu{
+  height: inherit;
+}
+
+.header a{
+  text-decoration: none;
+  color: orange;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  height: inherit;
+}
+
+.header ol{
+  border: 1px solid red;
+  display: flex;
+  height: inherit;
+}
+
+.header ol li{
+  height: inherit;
+}
+
+ol,
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
