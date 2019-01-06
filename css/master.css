@@ -15,12 +15,8 @@ h6{
   letter-spacing: 1px;
 }
 
-.hero h1{
-  font-size: 45px;
-  line-height: 1.5em;
-  justify-content: center;
-  display: flex;
-  margin: 50px 0;
+figure{
+  margin: 0;
 }
 
 .header{
@@ -30,10 +26,6 @@ h6{
   height: 204px;
   /* align-items: center; */
   justify-content: space-between;
-}
-
-figure{
-  margin: 0;
 }
 
 .logo img{
@@ -70,4 +62,40 @@ ul{
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.hero{
+  background-color: #585858;
+  height: 117px;
+  margin: 0px;
+}
+
+.hero h1{
+  font-size: 45px;
+  line-height: 1.5em;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  color: #D5730B;
+}
+
+.projects{
+  margin: 15px;
+  display: flex;
+}
+
+.project{
+  display: inherit;
+  border: 1px solid red;
+  margin: 20px;
+}
+
+.projects h2{
+  display: inherit;
+  font-size: 30px;
+}
+
+.projects h3{
+  display: inherit;
+  font-size: 25px;
 }
