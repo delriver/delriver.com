@@ -15,25 +15,44 @@ h6{
   letter-spacing: 1px;
 }
 
-h1{
-  font-size: 30px;
+.hero h1{
+  font-size: 45px;
   line-height: 1.5em;
+  justify-content: center;
+  display: flex;
+  margin: 50px 0;
 }
 
 .header{
   display: flex;
   background-color: #585858;
   color: orange;
-  align-items: center;
+  height: 204px;
+  /* align-items: center; */
   justify-content: space-between;
-  height: 250px;
 }
 
 figure{
   margin: 0;
 }
 
+.logo img{
+  margin-left: 20px;
+}
+
 .menu{
+  height: inherit;
+  margin-right: 20px;
+}
+
+
+.header ol{
+  display: flex;
+  height: inherit;
+}
+
+.header ol li{
+  display: flex;
   height: inherit;
 }
 
@@ -41,19 +60,9 @@ figure{
   text-decoration: none;
   color: orange;
   display: flex;
-  align-items: center;
   padding: 0 10px;
   height: inherit;
-}
-
-.header ol{
-  border: 1px solid red;
-  display: flex;
-  height: inherit;
-}
-
-.header ol li{
-  height: inherit;
+  align-items: center;
 }
 
 ol,
