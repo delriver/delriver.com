@@ -21,6 +21,7 @@ figure{
 
 .header{
   display: flex;
+  flex-wrap: wrap;
   background-color: #585858;
   color: orange;
   height: 204px;
@@ -137,6 +138,10 @@ ul{
   color: #D5730B;
 }
 
+.tecnologies{
+  margin-left: 10px;
+}
+
 .tecnologie{
   display: flex;
   justify-content: space-between;
@@ -178,7 +183,65 @@ ul{
 }
 
 .container{
-  width: 1000px;
+  max-width: 1000px;
   justify-content: center;
   margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width:1024px){
+  .hero h1{
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:767px){
+  .header{
+    display: block;
+    height: auto;
+  }
+
+  .hero{
+    height: auto;
+  }
+
+  .hero h1{
+    font-size: 1.5em;
+    padding-bottom: 0.3em;
+  }
+
+  .logo{
+    text-align: center;
+  }
+
+  .menu{
+    padding-bottom: 0.6em;
+    border-bottom: 1px solid orange;
+    width: 100%;
+  }
+
+  .menuList{
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:480px){
+  .projects{
+    display: block;
+    margin: auto;
+  }
+
+  .project{
+    display: inherit;
+  }
+
+  .project-details{
+    width: auto;
+  }
+}
+
+@media screen and (max-width:320px){
 }
