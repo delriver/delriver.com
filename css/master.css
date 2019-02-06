@@ -138,26 +138,26 @@ ul{
   color: #D5730B;
 }
 
-.tecnologies{
+.technologys{
   margin-left: 10px;
 }
 
-.tecnologie{
+.technology{
   display: flex;
   justify-content: space-between;
   margin-bottom: 1em;
 }
 
-.tecnologie-details{
+.technology-details{
   width: 60%
 }
 
-.tecnologie img{
+.technology img{
   width: 175px;
   height: 175px;
 }
 
-.tecnologies h2{
+.technologys h2{
   margin-top: 80px;
   font-size: 25px;
 }
